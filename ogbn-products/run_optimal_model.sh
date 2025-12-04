@@ -1,0 +1,3 @@
+python pre_processing.py --num_hops 5 --dataset ogbn-products --denoised_data_path /home/everetttucker/csc591-038/JDR/src/denoised_runs_run7/denoised_data_optimal1764814626.9640377.pt
+
+python main.py --use-rlu --method R_GAMLP_RLU --stages 400 300 300 300 300 300 --train-num-epochs 0 0 0 0 0 0 --threshold 0.85 --input-drop 0.2 --att-drop 0.5 --label-drop 0 --pre-process --residual --dataset ogbn-products --num-runs 10 --eval 10 --act leaky_relu --batch_size 50000 --patience 300 --n-layers-1 4 --n-layers-2 4 --bns --gama 0.1 --consis --tem 0.5 --lam 0.1 --hidden 512 --ema

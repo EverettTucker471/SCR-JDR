@@ -283,10 +283,21 @@ def run(args, device):
     return best_val, best_test
 
 def main(args):
+    # Robust device selection: prefer GPU when requested and available.
+    # Accept both CUDA (NVIDIA) and ROCm builds (PyTorch exposes ROCm via torch.version.hip).
     if args.gpu < 0:
-        device = "cpu"
+        device = torch.device("cpu")
     else:
-        device = "cuda:{}".format(args.gpu)
+        has_cuda = torch.cuda.is_available()
+        has_hip = hasattr(torch.version, 'hip') and (torch.version.hip is not None)
+        if not (has_cuda or has_hip):
+            # If user requested a GPU but PyTorch doesn't report CUDA/ROCm support,
+            # fall back to CPU and warn. This avoids runtime errors at model.to(device).
+            print("Warning: GPU requested but PyTorch reports no CUDA or ROCm support. Falling back to CPU.")
+            device = torch.device("cpu")
+        else:
+            # Use torch.device with the GPU index. ROCm builds still use the 'cuda' device namespace.
+            device = torch.device(f"cuda:{args.gpu}")
 
     val_accs = []
     test_accs = []

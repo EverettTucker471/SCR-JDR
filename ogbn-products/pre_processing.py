@@ -9,6 +9,35 @@ from cogdl.data import Graph
 from cogdl.utils import spmm_cpu
 
 
+def build_cogdl_graph_denoised(name, path, root):
+    """
+    Builds a cogdl graph from a PyG data object at path
+    Uses data returned by the preprocessing denoising model, before
+    implementing the SCR denoising algorithm
+
+    :param name: The name of the dataset (shoudl be "ogbn-products")
+    :param path: The file path to the denoised output data
+    :param root: The location for intermediate data storage, 
+    This would normally be used for caching, but that is not necessary 
+    because we already have the data on our machine
+    """
+    # Loading data from path
+    data = torch.load(path, weights_only=False)
+
+    # Extracting features and structure
+    x = data.x
+    y = data.y
+    edge_index = data.edge_index
+
+    # Defining the graph object that SCR expects
+    graph = Graph(x=x.contiguous(), edge_index=edge_index, y=y.contiguous())
+
+    # Grabbing original split indices from ogbn-products
+    dataset = NodePropPredDataset(name=name, root=root)
+    graph.splitted_idx = dataset.get_idx_split()
+
+    return graph
+
 def build_cogdl_graph(name, root):
     dataset = NodePropPredDataset(name=name, root=root)
     graph, y = dataset[0]
@@ -23,17 +52,22 @@ def build_cogdl_graph(name, root):
 
     return graph
 
-
 parser = argparse.ArgumentParser()
 parser.add_argument("--dataset", type=str, default="ogbn-products")
 parser.add_argument('--num_hops', type=int, default=5)
 parser.add_argument('--root', type=str, default='./')
 parser.add_argument('--giant_path', type=str, default= None)
+parser.add_argument('--denoised_data_path', type=str, default=None)
 
 args = parser.parse_args()
 print(args)
 
-graph = build_cogdl_graph(name=args.dataset, root=args.root)
+if args.denoised_data_path is not None:
+    print("Running with denoised data!")
+    graph = build_cogdl_graph_denoised(name=args.dataset, path=args.denoised_data_path, root=args.root)
+else:
+    graph = build_cogdl_graph(name=args.dataset, root=args.root)
+
 splitted_idx = graph.splitted_idx
 train_nid = splitted_idx["train"]
 val_nid = splitted_idx["valid"]
