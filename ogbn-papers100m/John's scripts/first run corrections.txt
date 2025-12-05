@@ -1,0 +1,623 @@
+python post_processing.py --file_name a7a9b18afe95472bb99bf586baac62b5_5_R_GAMLP_RLU --search                                                                                                                                                                                        1 ✘  8s   CSC591_HW1 
+/home/eh396/Documents/CSC_HAVEN/CSC_591/CSC591_HW1/.venv/lib/python3.13/site-packages/outdated/__init__.py:36: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+Namespace(gpu=0, dataset='ogbn-products', root='', file_name='a7a9b18afe95472bb99bf586baac62b5_5_R_GAMLP_RLU', search=True, n_trials=300, num_correction_layers=50, correction_alpha=0, num_smoothing_layers=50, smoothing_alpha=0, autoscale=False, scale=20.0)
+# Nodes: 2449029
+# Edges: 123718280
+# Train: 196615
+# Val: 39323
+# Test: 2213091
+# Classes: 47
+
+--------------------load_data---------------------
+This history model Train ACC is 0.962988581746052
+This history model Valid ACC is 0.9288457137044478
+This history model Test ACC is 0.849442702536859
+---------- Correct & Smoothing ----------
+[I 2025-11-20 00:10:16,358] A new study created in memory with name: no-name-5c8b1517-bdf3-4370-b1d9-1dbbc8857459
+Valid acc: 0.9296 | Test acc: 0.8508
+[I 2025-11-20 00:10:26,846] Trial 0 finished with value: 0.929557765175597 and parameters: {'correction-alpha': 0.5627809020694405, 'smoothing-alpha': 0.5190859173885789}. Best is trial 0 with value: 0.929557765175597.
+Valid acc: 0.9275 | Test acc: 0.8498
+[I 2025-11-20 00:10:33,205] Trial 1 finished with value: 0.9274979019912011 and parameters: {'correction-alpha': 0.7058253561794372, 'smoothing-alpha': 0.5407870667600474}. Best is trial 0 with value: 0.929557765175597.
+Valid acc: 0.9130 | Test acc: 0.8377
+[I 2025-11-20 00:10:39,569] Trial 2 finished with value: 0.9129517076520103 and parameters: {'correction-alpha': 0.987319246481884, 'smoothing-alpha': 0.7425902976943264}. Best is trial 0 with value: 0.929557765175597.
+Valid acc: 0.9224 | Test acc: 0.8491
+[I 2025-11-20 00:10:45,920] Trial 3 finished with value: 0.9223863896447372 and parameters: {'correction-alpha': 0.41580892869282426, 'smoothing-alpha': 0.8695207341397375}. Best is trial 0 with value: 0.929557765175597.
+Valid acc: 0.9008 | Test acc: 0.8364
+[I 2025-11-20 00:10:52,270] Trial 4 finished with value: 0.90082140223279 and parameters: {'correction-alpha': 0.8162020456723573, 'smoothing-alpha': 0.9717291479682216}. Best is trial 0 with value: 0.929557765175597.
+Valid acc: 0.9274 | Test acc: 0.8494
+[I 2025-11-20 00:10:58,628] Trial 5 finished with value: 0.9273707499427816 and parameters: {'correction-alpha': 0.723584616405377, 'smoothing-alpha': 0.5092436045435695}. Best is trial 0 with value: 0.929557765175597.
+Valid acc: 0.9253 | Test acc: 0.8491
+[I 2025-11-20 00:11:04,990] Trial 6 finished with value: 0.9253108867583857 and parameters: {'correction-alpha': 0.7751343784609945, 'smoothing-alpha': 0.7395937724148963}. Best is trial 0 with value: 0.929557765175597.
+Valid acc: 0.9176 | Test acc: 0.8430
+[I 2025-11-20 00:11:11,347] Trial 7 finished with value: 0.9176054726241639 and parameters: {'correction-alpha': 0.9174650384618639, 'smoothing-alpha': 0.6057073665677347}. Best is trial 0 with value: 0.929557765175597.
+Valid acc: 0.9256 | Test acc: 0.8502
+[I 2025-11-20 00:11:17,695] Trial 8 finished with value: 0.9256414820842763 and parameters: {'correction-alpha': 0.6195694647997796, 'smoothing-alpha': 0.81735574266715}. Best is trial 0 with value: 0.929557765175597.
+Valid acc: 0.9137 | Test acc: 0.8429
+[I 2025-11-20 00:11:24,042] Trial 9 finished with value: 0.9136637591231594 and parameters: {'correction-alpha': 0.8963623225880428, 'smoothing-alpha': 0.9180548537754228}. Best is trial 0 with value: 0.929557765175597.
+Valid acc: 0.9301 | Test acc: 0.8508
+[I 2025-11-20 00:11:30,388] Trial 10 finished with value: 0.9301172341886428 and parameters: {'correction-alpha': 0.5201087301804828, 'smoothing-alpha': 0.4060592272992831}. Best is trial 10 with value: 0.9301172341886428.
+Valid acc: 0.9301 | Test acc: 0.8508
+[I 2025-11-20 00:11:36,735] Trial 11 finished with value: 0.9301172341886428 and parameters: {'correction-alpha': 0.5202121777465184, 'smoothing-alpha': 0.40423514760907614}. Best is trial 10 with value: 0.9301172341886428.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:11:43,085] Trial 12 finished with value: 0.9304478295145335 and parameters: {'correction-alpha': 0.4300153775892653, 'smoothing-alpha': 0.4066393088803882}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8508
+[I 2025-11-20 00:11:49,430] Trial 13 finished with value: 0.9301680950080106 and parameters: {'correction-alpha': 0.4008468757103212, 'smoothing-alpha': 0.4010876332889724}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8508
+[I 2025-11-20 00:11:55,776] Trial 14 finished with value: 0.9302443862370623 and parameters: {'correction-alpha': 0.4097722865340872, 'smoothing-alpha': 0.40587733451626956}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9296 | Test acc: 0.8509
+[I 2025-11-20 00:12:02,123] Trial 15 finished with value: 0.9296340564046487 and parameters: {'correction-alpha': 0.43931542784326927, 'smoothing-alpha': 0.6291834068227575}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9293 | Test acc: 0.8504
+[I 2025-11-20 00:12:08,572] Trial 16 finished with value: 0.9293288914884419 and parameters: {'correction-alpha': 0.6181010136406844, 'smoothing-alpha': 0.4651313738814753}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:12:14,915] Trial 17 finished with value: 0.9302189558273783 and parameters: {'correction-alpha': 0.4695015883596107, 'smoothing-alpha': 0.45155877327669275}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9296 | Test acc: 0.8510
+[I 2025-11-20 00:12:21,259] Trial 18 finished with value: 0.929557765175597 and parameters: {'correction-alpha': 0.47794914347911543, 'smoothing-alpha': 0.594196827420246}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9292 | Test acc: 0.8505
+[I 2025-11-20 00:12:27,602] Trial 19 finished with value: 0.9292271698497063 and parameters: {'correction-alpha': 0.6105434163604445, 'smoothing-alpha': 0.4653061614929025}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9290 | Test acc: 0.8508
+[I 2025-11-20 00:12:33,946] Trial 20 finished with value: 0.929049156981919 and parameters: {'correction-alpha': 0.4122596226691098, 'smoothing-alpha': 0.6684984327122377}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:12:40,292] Trial 21 finished with value: 0.9301935254176945 and parameters: {'correction-alpha': 0.47437040824698884, 'smoothing-alpha': 0.4349139615307016}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:12:46,635] Trial 22 finished with value: 0.9301680950080106 and parameters: {'correction-alpha': 0.49638564732840806, 'smoothing-alpha': 0.4756881828317987}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9294 | Test acc: 0.8509
+[I 2025-11-20 00:12:52,979] Trial 23 finished with value: 0.9294051827174936 and parameters: {'correction-alpha': 0.565591769057586, 'smoothing-alpha': 0.5578002597879202}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8508
+[I 2025-11-20 00:12:59,324] Trial 24 finished with value: 0.930320677466114 and parameters: {'correction-alpha': 0.4461482333408886, 'smoothing-alpha': 0.4066184105436864}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8508
+[I 2025-11-20 00:13:05,670] Trial 25 finished with value: 0.9301935254176945 and parameters: {'correction-alpha': 0.405984524974095, 'smoothing-alpha': 0.4021255398861141}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9297 | Test acc: 0.8508
+[I 2025-11-20 00:13:12,036] Trial 26 finished with value: 0.9296849172240165 and parameters: {'correction-alpha': 0.5554330822688274, 'smoothing-alpha': 0.4972726902535425}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9299 | Test acc: 0.8510
+[I 2025-11-20 00:13:18,382] Trial 27 finished with value: 0.9299137909111715 and parameters: {'correction-alpha': 0.4453185056824766, 'smoothing-alpha': 0.562341521759037}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8508
+[I 2025-11-20 00:13:24,736] Trial 28 finished with value: 0.9301935254176945 and parameters: {'correction-alpha': 0.40600956171006314, 'smoothing-alpha': 0.4275761055507247}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9296 | Test acc: 0.8508
+[I 2025-11-20 00:13:31,079] Trial 29 finished with value: 0.929557765175597 and parameters: {'correction-alpha': 0.5607635854542876, 'smoothing-alpha': 0.515043155134617}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9279 | Test acc: 0.8498
+[I 2025-11-20 00:13:37,424] Trial 30 finished with value: 0.9278539277267757 and parameters: {'correction-alpha': 0.6652983847450643, 'smoothing-alpha': 0.40276239706645783}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:13:43,768] Trial 31 finished with value: 0.9301680950080106 and parameters: {'correction-alpha': 0.47498370221253544, 'smoothing-alpha': 0.4444674100011346}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:13:50,112] Trial 32 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.44824957993462083, 'smoothing-alpha': 0.4467496891375878}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:13:56,458] Trial 33 finished with value: 0.9301680950080106 and parameters: {'correction-alpha': 0.4401817892687765, 'smoothing-alpha': 0.4887675938106615}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9300 | Test acc: 0.8510
+[I 2025-11-20 00:14:02,800] Trial 34 finished with value: 0.9300155125499072 and parameters: {'correction-alpha': 0.5168111997753627, 'smoothing-alpha': 0.5392721944399551}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:14:09,144] Trial 35 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.44142153605650486, 'smoothing-alpha': 0.421825492704588}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9299 | Test acc: 0.8510
+[I 2025-11-20 00:14:15,486] Trial 36 finished with value: 0.9299392213208555 and parameters: {'correction-alpha': 0.4445963424289953, 'smoothing-alpha': 0.5217414504862123}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9299 | Test acc: 0.8508
+[I 2025-11-20 00:14:21,829] Trial 37 finished with value: 0.9298883605014877 and parameters: {'correction-alpha': 0.5315650209127847, 'smoothing-alpha': 0.4326401222288566}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9257 | Test acc: 0.8504
+[I 2025-11-20 00:14:28,171] Trial 38 finished with value: 0.925717773313328 and parameters: {'correction-alpha': 0.5837740600575949, 'smoothing-alpha': 0.8071913371400739}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9300 | Test acc: 0.8509
+[I 2025-11-20 00:14:34,519] Trial 39 finished with value: 0.930040942959591 and parameters: {'correction-alpha': 0.4938694514253255, 'smoothing-alpha': 0.4898901164216587}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9299 | Test acc: 0.8510
+[I 2025-11-20 00:14:40,862] Trial 40 finished with value: 0.9298629300918038 and parameters: {'correction-alpha': 0.45676492155724635, 'smoothing-alpha': 0.5743206859912905}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:14:47,205] Trial 41 finished with value: 0.9302189558273783 and parameters: {'correction-alpha': 0.42234436156697547, 'smoothing-alpha': 0.42964783419933966}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9301 | Test acc: 0.8508
+[I 2025-11-20 00:14:53,554] Trial 42 finished with value: 0.9301426645983267 and parameters: {'correction-alpha': 0.40472659113465315, 'smoothing-alpha': 0.40619498725024367}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:14:59,905] Trial 43 finished with value: 0.9301935254176945 and parameters: {'correction-alpha': 0.5039125606390884, 'smoothing-alpha': 0.46414864709221726}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:15:06,258] Trial 44 finished with value: 0.9304223991048496 and parameters: {'correction-alpha': 0.4345354050239183, 'smoothing-alpha': 0.41901370354494943}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9231 | Test acc: 0.8468
+[I 2025-11-20 00:15:12,604] Trial 45 finished with value: 0.9231238715255703 and parameters: {'correction-alpha': 0.8308716921846071, 'smoothing-alpha': 0.5304137042634821}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9299 | Test acc: 0.8508
+[I 2025-11-20 00:15:18,948] Trial 46 finished with value: 0.9299392213208555 and parameters: {'correction-alpha': 0.53773179737439, 'smoothing-alpha': 0.4368271675993063}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:15:25,295] Trial 47 finished with value: 0.9302443862370623 and parameters: {'correction-alpha': 0.42993435388072826, 'smoothing-alpha': 0.49323627454896224}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9269 | Test acc: 0.8504
+[I 2025-11-20 00:15:31,638] Trial 48 finished with value: 0.9269384329781553 and parameters: {'correction-alpha': 0.6693136531021844, 'smoothing-alpha': 0.7177884394656413}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8508
+[I 2025-11-20 00:15:37,982] Trial 49 finished with value: 0.9301935254176945 and parameters: {'correction-alpha': 0.4920582641147162, 'smoothing-alpha': 0.4006479612195045}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9153 | Test acc: 0.8406
+[I 2025-11-20 00:15:44,325] Trial 50 finished with value: 0.9152913053429291 and parameters: {'correction-alpha': 0.954841990218844, 'smoothing-alpha': 0.646329373578154}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:15:50,680] Trial 51 finished with value: 0.9302443862370623 and parameters: {'correction-alpha': 0.46241974269810193, 'smoothing-alpha': 0.41909702874310084}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:15:57,035] Trial 52 finished with value: 0.9302189558273783 and parameters: {'correction-alpha': 0.4711602818661207, 'smoothing-alpha': 0.4198913510275954}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:16:03,392] Trial 53 finished with value: 0.930320677466114 and parameters: {'correction-alpha': 0.421085918572205, 'smoothing-alpha': 0.46670626393393977}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:16:09,745] Trial 54 finished with value: 0.930320677466114 and parameters: {'correction-alpha': 0.4295489028738035, 'smoothing-alpha': 0.45804787873518193}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.8831 | Test acc: 0.8245
+[I 2025-11-20 00:16:16,103] Trial 55 finished with value: 0.8831472675024795 and parameters: {'correction-alpha': 0.4018993223913526, 'smoothing-alpha': 0.9877013503988852}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:16:22,468] Trial 56 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.42690659377427553, 'smoothing-alpha': 0.4666554425142077}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:16:28,816] Trial 57 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.42490433564409213, 'smoothing-alpha': 0.468201019298369}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:16:35,173] Trial 58 finished with value: 0.9301935254176945 and parameters: {'correction-alpha': 0.40018697106235124, 'smoothing-alpha': 0.5049485264899054}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9300 | Test acc: 0.8509
+[I 2025-11-20 00:16:41,520] Trial 59 finished with value: 0.9300155125499072 and parameters: {'correction-alpha': 0.5075031059838315, 'smoothing-alpha': 0.4762773838362071}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:16:47,867] Trial 60 finished with value: 0.930320677466114 and parameters: {'correction-alpha': 0.42869382088576213, 'smoothing-alpha': 0.4556560327269129}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:16:54,214] Trial 61 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.46047512794950674, 'smoothing-alpha': 0.41894803462095975}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:17:00,564] Trial 62 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.426892596080096, 'smoothing-alpha': 0.4726864661334418}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8508
+[I 2025-11-20 00:17:06,915] Trial 63 finished with value: 0.9302443862370623 and parameters: {'correction-alpha': 0.4840795675482593, 'smoothing-alpha': 0.4014384395815076}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:17:13,263] Trial 64 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.4295741641091222, 'smoothing-alpha': 0.45218940870400653}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9301 | Test acc: 0.8509
+[I 2025-11-20 00:17:19,610] Trial 65 finished with value: 0.930066373369275 and parameters: {'correction-alpha': 0.4235933150912572, 'smoothing-alpha': 0.5126613984883176}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9300 | Test acc: 0.8510
+[I 2025-11-20 00:17:25,957] Trial 66 finished with value: 0.9299900821402233 and parameters: {'correction-alpha': 0.46548397607286, 'smoothing-alpha': 0.5461205714857943}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:17:32,309] Trial 67 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.4432966383364761, 'smoothing-alpha': 0.4370261497645575}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9297 | Test acc: 0.8507
+[I 2025-11-20 00:17:38,658] Trial 68 finished with value: 0.9297103476337004 and parameters: {'correction-alpha': 0.5421206758251464, 'smoothing-alpha': 0.4143692560055433}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:17:45,002] Trial 69 finished with value: 0.9304223991048496 and parameters: {'correction-alpha': 0.4023891605825848, 'smoothing-alpha': 0.48116229046681547}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9182 | Test acc: 0.8479
+[I 2025-11-20 00:17:51,355] Trial 70 finished with value: 0.9182412328662615 and parameters: {'correction-alpha': 0.40000048475641503, 'smoothing-alpha': 0.9024659009588114}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:17:57,712] Trial 71 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.45134515351550364, 'smoothing-alpha': 0.47838315808013077}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9260 | Test acc: 0.8485
+[I 2025-11-20 00:18:04,071] Trial 72 finished with value: 0.9260483686392188 and parameters: {'correction-alpha': 0.7559075263457914, 'smoothing-alpha': 0.44375553565316345}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:18:10,449] Trial 73 finished with value: 0.9301680950080106 and parameters: {'correction-alpha': 0.4835805926017867, 'smoothing-alpha': 0.4505747719980647}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:18:16,809] Trial 74 finished with value: 0.9301935254176945 and parameters: {'correction-alpha': 0.41651320251936363, 'smoothing-alpha': 0.4834900870033058}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9300 | Test acc: 0.8510
+[I 2025-11-20 00:18:23,155] Trial 75 finished with value: 0.930040942959591 and parameters: {'correction-alpha': 0.439065116371982, 'smoothing-alpha': 0.506776592836969}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9265 | Test acc: 0.8505
+[I 2025-11-20 00:18:29,501] Trial 76 finished with value: 0.926506116013529 and parameters: {'correction-alpha': 0.4517172631836052, 'smoothing-alpha': 0.7770384975667102}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:18:35,847] Trial 77 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.4003900989702008, 'smoothing-alpha': 0.4341875986647239}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:18:42,197] Trial 78 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.40227852660847746, 'smoothing-alpha': 0.43292960604295844}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9297 | Test acc: 0.8509
+[I 2025-11-20 00:18:48,544] Trial 79 finished with value: 0.9297357780433843 and parameters: {'correction-alpha': 0.41059021983664157, 'smoothing-alpha': 0.5883133398370186}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:18:54,890] Trial 80 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.40249596149975664, 'smoothing-alpha': 0.43475861423892104}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:19:01,236] Trial 81 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.40148106331385885, 'smoothing-alpha': 0.43503132143042905}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:19:07,582] Trial 82 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.41454347500658645, 'smoothing-alpha': 0.4253408680896191}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:19:13,928] Trial 83 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.40265340544267625, 'smoothing-alpha': 0.4366387954868911}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:19:20,273] Trial 84 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.4002041341192482, 'smoothing-alpha': 0.43664845484518056}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:19:26,620] Trial 85 finished with value: 0.9302189558273783 and parameters: {'correction-alpha': 0.41617457229723515, 'smoothing-alpha': 0.4962317470310515}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8508
+[I 2025-11-20 00:19:32,964] Trial 86 finished with value: 0.9301680950080106 and parameters: {'correction-alpha': 0.46354943297502826, 'smoothing-alpha': 0.4000669615760814}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:19:39,310] Trial 87 finished with value: 0.930320677466114 and parameters: {'correction-alpha': 0.44201333319246516, 'smoothing-alpha': 0.4404899912070079}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9301 | Test acc: 0.8508
+[I 2025-11-20 00:19:45,656] Trial 88 finished with value: 0.9301426645983267 and parameters: {'correction-alpha': 0.5179377576270437, 'smoothing-alpha': 0.4141475342336151}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9299 | Test acc: 0.8510
+[I 2025-11-20 00:19:52,004] Trial 89 finished with value: 0.9298883605014877 and parameters: {'correction-alpha': 0.4378493675864359, 'smoothing-alpha': 0.529937757687437}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:19:58,348] Trial 90 finished with value: 0.9301680950080106 and parameters: {'correction-alpha': 0.47564649631240513, 'smoothing-alpha': 0.4597471048581}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8508
+[I 2025-11-20 00:20:04,692] Trial 91 finished with value: 0.9301935254176945 and parameters: {'correction-alpha': 0.401614379485929, 'smoothing-alpha': 0.4213675939316129}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:20:11,036] Trial 92 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.4029849278992552, 'smoothing-alpha': 0.4361585494820802}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:20:17,380] Trial 93 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.45309459645595607, 'smoothing-alpha': 0.40079979251513714}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:20:23,724] Trial 94 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.4515596832455261, 'smoothing-alpha': 0.400792056759294}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8508
+[I 2025-11-20 00:20:30,068] Trial 95 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.49565805706804816, 'smoothing-alpha': 0.4087657417252836}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:20:36,412] Trial 96 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.4572237333838859, 'smoothing-alpha': 0.41576538680435376}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8508
+[I 2025-11-20 00:20:42,754] Trial 97 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.4557978291775293, 'smoothing-alpha': 0.4023976235978226}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:20:49,098] Trial 98 finished with value: 0.9301680950080106 and parameters: {'correction-alpha': 0.48197279814847194, 'smoothing-alpha': 0.4492146162230522}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8508
+[I 2025-11-20 00:20:55,442] Trial 99 finished with value: 0.9301935254176945 and parameters: {'correction-alpha': 0.4665250316426789, 'smoothing-alpha': 0.40064716267759376}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9206 | Test acc: 0.8455
+[I 2025-11-20 00:21:01,784] Trial 100 finished with value: 0.9206316913765481 and parameters: {'correction-alpha': 0.8550189140407516, 'smoothing-alpha': 0.4835865466597327}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:21:08,129] Trial 101 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.415705315643512, 'smoothing-alpha': 0.42675376533971665}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:21:14,479] Trial 102 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.43172686011546824, 'smoothing-alpha': 0.4590191959916089}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:21:20,825] Trial 103 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.4501507214793913, 'smoothing-alpha': 0.41326530333485556}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:21:27,169] Trial 104 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.45458442166682567, 'smoothing-alpha': 0.415265536678231}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8508
+[I 2025-11-20 00:21:33,514] Trial 105 finished with value: 0.9302189558273783 and parameters: {'correction-alpha': 0.5082276708441622, 'smoothing-alpha': 0.41244899150542685}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9303 | Test acc: 0.8508
+[I 2025-11-20 00:21:39,860] Trial 106 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.4525234886136479, 'smoothing-alpha': 0.4151509288358843}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:21:46,203] Trial 107 finished with value: 0.9302443862370623 and parameters: {'correction-alpha': 0.49227715653007026, 'smoothing-alpha': 0.44697036414098157}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8508
+[I 2025-11-20 00:21:52,544] Trial 108 finished with value: 0.9302443862370623 and parameters: {'correction-alpha': 0.47143125637433303, 'smoothing-alpha': 0.400620986771505}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:21:58,889] Trial 109 finished with value: 0.9302443862370623 and parameters: {'correction-alpha': 0.45482508601712607, 'smoothing-alpha': 0.4687587303614799}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9299 | Test acc: 0.8508
+[I 2025-11-20 00:22:05,233] Trial 110 finished with value: 0.9298883605014877 and parameters: {'correction-alpha': 0.5280483158088303, 'smoothing-alpha': 0.4267250071725193}. Best is trial 12 with value: 0.9304478295145335.
+Valid acc: 0.9305 | Test acc: 0.8509
+[I 2025-11-20 00:22:11,578] Trial 111 finished with value: 0.9304732599242174 and parameters: {'correction-alpha': 0.43189768915405835, 'smoothing-alpha': 0.41359418718931973}. Best is trial 111 with value: 0.9304732599242174.
+.Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:22:17,924] Trial 112 finished with value: 0.9302443862370623 and parameters: {'correction-alpha': 0.4377662602060139, 'smoothing-alpha': 0.45090880098085784}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:22:24,270] Trial 113 finished with value: 0.9304223991048496 and parameters: {'correction-alpha': 0.42404257652752336, 'smoothing-alpha': 0.4159154168874169}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:22:30,616] Trial 114 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.4226386928268153, 'smoothing-alpha': 0.4246081953254112}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:22:36,963] Trial 115 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.41173213188919744, 'smoothing-alpha': 0.4648897503172063}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8508
+[I 2025-11-20 00:22:43,310] Trial 116 finished with value: 0.9301935254176945 and parameters: {'correction-alpha': 0.4819356171873963, 'smoothing-alpha': 0.4115518929178331}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:22:49,654] Trial 117 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.4264014263686122, 'smoothing-alpha': 0.4444676690155391}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8508
+[I 2025-11-20 00:22:55,998] Trial 118 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.4465187907979884, 'smoothing-alpha': 0.41058866182430376}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:23:02,358] Trial 119 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.4331134967222851, 'smoothing-alpha': 0.4227031454838635}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:23:08,712] Trial 120 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.4341775537897118, 'smoothing-alpha': 0.4762868197499539}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:23:15,060] Trial 121 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.41657502585025613, 'smoothing-alpha': 0.4258022054103283}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:23:21,407] Trial 122 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.4340681373915932, 'smoothing-alpha': 0.43958516064301706}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:23:27,765] Trial 123 finished with value: 0.9302189558273783 and parameters: {'correction-alpha': 0.46653526942598245, 'smoothing-alpha': 0.4574427716892662}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9290 | Test acc: 0.8508
+[I 2025-11-20 00:23:34,113] Trial 124 finished with value: 0.9289728657528673 and parameters: {'correction-alpha': 0.4195067258558909, 'smoothing-alpha': 0.6724724756236838}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8508
+[I 2025-11-20 00:23:40,474] Trial 125 finished with value: 0.930320677466114 and parameters: {'correction-alpha': 0.4467644764117648, 'smoothing-alpha': 0.4004377982945689}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9301 | Test acc: 0.8509
+[I 2025-11-20 00:23:46,821] Trial 126 finished with value: 0.9301426645983267 and parameters: {'correction-alpha': 0.409980322563741, 'smoothing-alpha': 0.42912670224188143}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:23:53,181] Trial 127 finished with value: 0.9304223991048496 and parameters: {'correction-alpha': 0.4334064652142074, 'smoothing-alpha': 0.4170138486528096}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9305 | Test acc: 0.8509
+[I 2025-11-20 00:23:59,534] Trial 128 finished with value: 0.9304732599242174 and parameters: {'correction-alpha': 0.43370319550739145, 'smoothing-alpha': 0.41598819406884596}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8508
+[I 2025-11-20 00:24:05,880] Trial 129 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.4630009062119924, 'smoothing-alpha': 0.4182062743936607}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:24:12,228] Trial 130 finished with value: 0.9302443862370623 and parameters: {'correction-alpha': 0.43318182745903855, 'smoothing-alpha': 0.44859188906318703}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:24:18,586] Trial 131 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.44332464517748427, 'smoothing-alpha': 0.41335702522302664}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:24:24,954] Trial 132 finished with value: 0.9302443862370623 and parameters: {'correction-alpha': 0.472831139819704, 'smoothing-alpha': 0.41667438350347236}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:24:31,300] Trial 133 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.4244700370453327, 'smoothing-alpha': 0.4302027298519139}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:24:37,645] Trial 134 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.4418358268682963, 'smoothing-alpha': 0.4084373041685065}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:24:43,989] Trial 135 finished with value: 0.9301680950080106 and parameters: {'correction-alpha': 0.40845668992276984, 'smoothing-alpha': 0.4410283520484602}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:24:50,334] Trial 136 finished with value: 0.9302443862370623 and parameters: {'correction-alpha': 0.46105481296455353, 'smoothing-alpha': 0.4185658601493418}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:24:56,679] Trial 137 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.42098750247750155, 'smoothing-alpha': 0.40061134478598553}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:25:03,029] Trial 138 finished with value: 0.9304223991048496 and parameters: {'correction-alpha': 0.4033551797315821, 'smoothing-alpha': 0.469690655940322}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9291 | Test acc: 0.8504
+[I 2025-11-20 00:25:09,374] Trial 139 finished with value: 0.9290745873916029 and parameters: {'correction-alpha': 0.6339904751840082, 'smoothing-alpha': 0.49663666846609944}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:25:15,718] Trial 140 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.4219853988063751, 'smoothing-alpha': 0.40072201211609354}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:25:22,061] Trial 141 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.45261572555949087, 'smoothing-alpha': 0.40022986036070546}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:25:28,404] Trial 142 finished with value: 0.9304478295145335 and parameters: {'correction-alpha': 0.401957477433689, 'smoothing-alpha': 0.46234585406033346}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9305 | Test acc: 0.8509
+[I 2025-11-20 00:25:34,747] Trial 143 finished with value: 0.9304732599242174 and parameters: {'correction-alpha': 0.40060775404122284, 'smoothing-alpha': 0.46307055554272636}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:25:41,090] Trial 144 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.40141694504351344, 'smoothing-alpha': 0.482893467617969}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:25:47,450] Trial 145 finished with value: 0.9301935254176945 and parameters: {'correction-alpha': 0.40063350939414594, 'smoothing-alpha': 0.5057078308727382}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:25:53,799] Trial 146 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.43455022739376653, 'smoothing-alpha': 0.47678592104565254}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9300 | Test acc: 0.8509
+[I 2025-11-20 00:26:00,146] Trial 147 finished with value: 0.9300155125499072 and parameters: {'correction-alpha': 0.4135945919033148, 'smoothing-alpha': 0.5226068758021837}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:26:06,495] Trial 148 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.42904622508434254, 'smoothing-alpha': 0.4630176118065385}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:26:12,842] Trial 149 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.40080608129435097, 'smoothing-alpha': 0.4885195731547897}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9273 | Test acc: 0.8494
+[I 2025-11-20 00:26:19,186] Trial 150 finished with value: 0.9272944587137298 and parameters: {'correction-alpha': 0.7208748466142065, 'smoothing-alpha': 0.4856338285904451}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:26:25,537] Trial 151 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.4122755712065597, 'smoothing-alpha': 0.48954087210051983}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:26:31,897] Trial 152 finished with value: 0.9304223991048496 and parameters: {'correction-alpha': 0.4021452707288002, 'smoothing-alpha': 0.47475364044027896}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:26:38,258] Trial 153 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.4005317573606772, 'smoothing-alpha': 0.5019002054620694}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:26:44,604] Trial 154 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.411092976184625, 'smoothing-alpha': 0.46912160742382153}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9300 | Test acc: 0.8509
+[I 2025-11-20 00:26:50,949] Trial 155 finished with value: 0.9299646517305393 and parameters: {'correction-alpha': 0.42688321260533413, 'smoothing-alpha': 0.5197004650796113}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9305 | Test acc: 0.8509
+[I 2025-11-20 00:26:57,297] Trial 156 finished with value: 0.9304732599242174 and parameters: {'correction-alpha': 0.4004692770302126, 'smoothing-alpha': 0.460875563924689}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:27:03,649] Trial 157 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.4006292235629279, 'smoothing-alpha': 0.48331170262917444}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:27:10,009] Trial 158 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.4179222027205763, 'smoothing-alpha': 0.46014926774342246}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:27:16,364] Trial 159 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.4002018729376192, 'smoothing-alpha': 0.47288802707303335}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:27:22,714] Trial 160 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.4004338276532657, 'smoothing-alpha': 0.45425843729925947}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:27:29,061] Trial 161 finished with value: 0.9302443862370623 and parameters: {'correction-alpha': 0.43626518205661863, 'smoothing-alpha': 0.4714545862658436}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:27:35,407] Trial 162 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.4007167999140408, 'smoothing-alpha': 0.49193716193174963}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9301 | Test acc: 0.8509
+[I 2025-11-20 00:27:41,757] Trial 163 finished with value: 0.9300918037789588 and parameters: {'correction-alpha': 0.4141152039255521, 'smoothing-alpha': 0.510513404591409}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:27:48,107] Trial 164 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.427103047262043, 'smoothing-alpha': 0.46877068325081206}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:27:54,456] Trial 165 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.4365578511105929, 'smoothing-alpha': 0.4495205139563194}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:28:00,801] Trial 166 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.4101921250064957, 'smoothing-alpha': 0.4915503132490185}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:28:07,162] Trial 167 finished with value: 0.9304223991048496 and parameters: {'correction-alpha': 0.40250033583455086, 'smoothing-alpha': 0.4808197389820149}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:28:13,511] Trial 168 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.42164400934232116, 'smoothing-alpha': 0.4542948158081125}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:28:19,859] Trial 169 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.4008389325307221, 'smoothing-alpha': 0.4783780362110865}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9299 | Test acc: 0.8510
+[I 2025-11-20 00:28:26,217] Trial 170 finished with value: 0.9299137909111715 and parameters: {'correction-alpha': 0.4408369710026302, 'smoothing-alpha': 0.5388191412478602}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:28:32,571] Trial 171 finished with value: 0.930320677466114 and parameters: {'correction-alpha': 0.4227280022558303, 'smoothing-alpha': 0.4676451642075717}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:28:38,919] Trial 172 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.400150793955907, 'smoothing-alpha': 0.48196648623229493}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9301 | Test acc: 0.8509
+[I 2025-11-20 00:28:45,267] Trial 173 finished with value: 0.9301426645983267 and parameters: {'correction-alpha': 0.4124125739124529, 'smoothing-alpha': 0.5017258010865453}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:28:51,627] Trial 174 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.4020678696429009, 'smoothing-alpha': 0.44423604974146114}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:28:57,978] Trial 175 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.4020704533327225, 'smoothing-alpha': 0.4830807286726404}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:29:04,326] Trial 176 finished with value: 0.9301935254176945 and parameters: {'correction-alpha': 0.4144197955552129, 'smoothing-alpha': 0.4912056170141752}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:29:10,686] Trial 177 finished with value: 0.9301935254176945 and parameters: {'correction-alpha': 0.4005669593927883, 'smoothing-alpha': 0.5108916931684175}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:29:17,034] Trial 178 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.43025456996584555, 'smoothing-alpha': 0.4638193279297672}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:29:23,382] Trial 179 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.42396965888795807, 'smoothing-alpha': 0.47002206600969354}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:29:29,730] Trial 180 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.4438127758018413, 'smoothing-alpha': 0.4328353238688137}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:29:36,090] Trial 181 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.4297410279491793, 'smoothing-alpha': 0.47508717805305967}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:29:42,440] Trial 182 finished with value: 0.9302443862370623 and parameters: {'correction-alpha': 0.41275854121555905, 'smoothing-alpha': 0.4579781634138204}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:29:48,788] Trial 183 finished with value: 0.930320677466114 and parameters: {'correction-alpha': 0.4399949134174044, 'smoothing-alpha': 0.4421080099245256}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:29:55,133] Trial 184 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.40025376295295506, 'smoothing-alpha': 0.48613190264184086}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:30:01,479] Trial 185 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.4163235189145356, 'smoothing-alpha': 0.4570294097415324}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:30:07,824] Trial 186 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.41017657445247113, 'smoothing-alpha': 0.4805152948292486}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9301 | Test acc: 0.8509
+[I 2025-11-20 00:30:14,168] Trial 187 finished with value: 0.930066373369275 and parameters: {'correction-alpha': 0.43043302641150405, 'smoothing-alpha': 0.5019318942494762}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:30:20,513] Trial 188 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.40036165163314996, 'smoothing-alpha': 0.4777466507859093}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:30:26,871] Trial 189 finished with value: 0.930320677466114 and parameters: {'correction-alpha': 0.45834931454425015, 'smoothing-alpha': 0.4253551009783964}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:30:33,218] Trial 190 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.40070049828744053, 'smoothing-alpha': 0.49751515701708343}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:30:39,565] Trial 191 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.40001506921100793, 'smoothing-alpha': 0.48793371772500893}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:30:45,911] Trial 192 finished with value: 0.9302443862370623 and parameters: {'correction-alpha': 0.42153484526892454, 'smoothing-alpha': 0.4476083623636773}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:30:52,260] Trial 193 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.43175561674258683, 'smoothing-alpha': 0.46575629129121515}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:30:58,833] Trial 194 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.40084177125336723, 'smoothing-alpha': 0.4851792588341924}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:31:05,559] Trial 195 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.44398125382440207, 'smoothing-alpha': 0.4334112936139943}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9300 | Test acc: 0.8509
+[I 2025-11-20 00:31:12,609] Trial 196 finished with value: 0.930040942959591 and parameters: {'correction-alpha': 0.40022765426621204, 'smoothing-alpha': 0.5189795773867514}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9294 | Test acc: 0.8506
+[I 2025-11-20 00:31:19,193] Trial 197 finished with value: 0.9293543218981257 and parameters: {'correction-alpha': 0.591394688234276, 'smoothing-alpha': 0.4539029096418236}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:31:25,554] Trial 198 finished with value: 0.9302443862370623 and parameters: {'correction-alpha': 0.4215520549182927, 'smoothing-alpha': 0.42378002147475796}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9057 | Test acc: 0.8336
+[I 2025-11-20 00:31:31,909] Trial 199 finished with value: 0.9056786104824148 and parameters: {'correction-alpha': 0.9965808612325822, 'smoothing-alpha': 0.4804730501550152}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9255 | Test acc: 0.8482
+[I 2025-11-20 00:31:38,269] Trial 200 finished with value: 0.9255397604455408 and parameters: {'correction-alpha': 0.7821624824888996, 'smoothing-alpha': 0.4992017578650369}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:31:44,626] Trial 201 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.41256253435815626, 'smoothing-alpha': 0.47042553096886186}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:31:51,055] Trial 202 finished with value: 0.930320677466114 and parameters: {'correction-alpha': 0.4287531247068961, 'smoothing-alpha': 0.45971477218442575}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:31:57,559] Trial 203 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.40087819977927985, 'smoothing-alpha': 0.47774682790327927}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:32:04,101] Trial 204 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.4187320351612715, 'smoothing-alpha': 0.44261192236115543}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:32:11,041] Trial 205 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.41183909051766726, 'smoothing-alpha': 0.4663228319741478}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:32:17,748] Trial 206 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.43582462600877675, 'smoothing-alpha': 0.47569953982339697}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9296 | Test acc: 0.8509
+[I 2025-11-20 00:32:24,150] Trial 207 finished with value: 0.9296086259949647 and parameters: {'correction-alpha': 0.4112041439265708, 'smoothing-alpha': 0.6094038933550885}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9301 | Test acc: 0.8509
+[I 2025-11-20 00:32:30,670] Trial 208 finished with value: 0.930066373369275 and parameters: {'correction-alpha': 0.44552891933414907, 'smoothing-alpha': 0.49258196647234936}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:32:37,060] Trial 209 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.4009559863383183, 'smoothing-alpha': 0.4876456973967261}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9301 | Test acc: 0.8509
+[I 2025-11-20 00:32:43,430] Trial 210 finished with value: 0.9301426645983267 and parameters: {'correction-alpha': 0.41078698919836554, 'smoothing-alpha': 0.5055131822800594}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:32:49,809] Trial 211 finished with value: 0.930320677466114 and parameters: {'correction-alpha': 0.42454107556136533, 'smoothing-alpha': 0.4698133330528089}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:32:56,356] Trial 212 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.4003048878825145, 'smoothing-alpha': 0.4785211610061004}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:33:03,085] Trial 213 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.428915933392349, 'smoothing-alpha': 0.45070129229976935}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:33:09,764] Trial 214 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.40027585645220337, 'smoothing-alpha': 0.48840014188082936}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:33:16,189] Trial 215 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.40100734701065577, 'smoothing-alpha': 0.485223230490712}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:33:22,594] Trial 216 finished with value: 0.930320677466114 and parameters: {'correction-alpha': 0.4102276509493501, 'smoothing-alpha': 0.4761728280688335}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:33:29,326] Trial 217 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.40058987009644265, 'smoothing-alpha': 0.4984203535292797}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:33:35,767] Trial 218 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.4109576650594084, 'smoothing-alpha': 0.4820584797852954}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9116 | Test acc: 0.8384
+[I 2025-11-20 00:33:42,252] Trial 219 finished with value: 0.9116038959387636 and parameters: {'correction-alpha': 0.9656807272478245, 'smoothing-alpha': 0.5169543455457094}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8508
+[I 2025-11-20 00:33:49,292] Trial 220 finished with value: 0.9301680950080106 and parameters: {'correction-alpha': 0.4008435833681075, 'smoothing-alpha': 0.41007599934481165}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:33:55,733] Trial 221 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.4000290830001612, 'smoothing-alpha': 0.4899857994011503}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:34:02,167] Trial 222 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.42183537639063257, 'smoothing-alpha': 0.4621409711738522}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:34:08,525] Trial 223 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.4328782678422579, 'smoothing-alpha': 0.4223386368997478}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:34:15,199] Trial 224 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.401114375461675, 'smoothing-alpha': 0.5000353783734873}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:34:21,789] Trial 225 finished with value: 0.930320677466114 and parameters: {'correction-alpha': 0.4229820943628653, 'smoothing-alpha': 0.4684720724171567}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:34:28,341] Trial 226 finished with value: 0.930320677466114 and parameters: {'correction-alpha': 0.41845980070898914, 'smoothing-alpha': 0.4598417699795961}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9301 | Test acc: 0.8509
+[I 2025-11-20 00:34:34,765] Trial 227 finished with value: 0.9301426645983267 and parameters: {'correction-alpha': 0.41250761675206443, 'smoothing-alpha': 0.4430039493643195}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9081 | Test acc: 0.8430
+[I 2025-11-20 00:34:41,108] Trial 228 finished with value: 0.9081453602217532 and parameters: {'correction-alpha': 0.44386098627454884, 'smoothing-alpha': 0.9557041939287216}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:34:47,655] Trial 229 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.43698069799405964, 'smoothing-alpha': 0.471101969929227}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:34:54,132] Trial 230 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.4334300599158803, 'smoothing-alpha': 0.4303746726059803}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:35:01,082] Trial 231 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.41810988911801, 'smoothing-alpha': 0.45567227592565657}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:35:07,582] Trial 232 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.4524566608125029, 'smoothing-alpha': 0.4000225377788884}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:35:14,070] Trial 233 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.40014819805626844, 'smoothing-alpha': 0.48240293105484244}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:35:21,153] Trial 234 finished with value: 0.9304223991048496 and parameters: {'correction-alpha': 0.40071034969438557, 'smoothing-alpha': 0.4804802604856566}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:35:27,930] Trial 235 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.40157181553847116, 'smoothing-alpha': 0.4892811240405142}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9301 | Test acc: 0.8509
+[I 2025-11-20 00:35:34,639] Trial 236 finished with value: 0.930066373369275 and parameters: {'correction-alpha': 0.41302097912969493, 'smoothing-alpha': 0.5101245381040797}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9300 | Test acc: 0.8509
+[I 2025-11-20 00:35:41,456] Trial 237 finished with value: 0.9299646517305393 and parameters: {'correction-alpha': 0.40055670679109256, 'smoothing-alpha': 0.5289277306576002}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9241 | Test acc: 0.8498
+[I 2025-11-20 00:35:48,208] Trial 238 finished with value: 0.9241410879129263 and parameters: {'correction-alpha': 0.4099402175795404, 'smoothing-alpha': 0.837945280174009}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:35:54,591] Trial 239 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.42367981098749624, 'smoothing-alpha': 0.41684413607429965}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:36:01,101] Trial 240 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.4227941392589165, 'smoothing-alpha': 0.4764281857186641}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:36:08,310] Trial 241 finished with value: 0.9304478295145335 and parameters: {'correction-alpha': 0.4006577610636907, 'smoothing-alpha': 0.4819524274326342}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:36:15,786] Trial 242 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.433889288872294, 'smoothing-alpha': 0.4641014566891326}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:36:23,247] Trial 243 finished with value: 0.9304223991048496 and parameters: {'correction-alpha': 0.441954476960054, 'smoothing-alpha': 0.41716360624482474}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:36:29,658] Trial 244 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.401106355787628, 'smoothing-alpha': 0.4930104771597355}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:36:36,939] Trial 245 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.41106719071982856, 'smoothing-alpha': 0.47910604365214143}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:36:43,475] Trial 246 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.4008535851539098, 'smoothing-alpha': 0.47587441490958865}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9164 | Test acc: 0.8428
+[I 2025-11-20 00:36:49,832] Trial 247 finished with value: 0.9163593825496529 and parameters: {'correction-alpha': 0.9019384154799149, 'smoothing-alpha': 0.4487738367127371}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:36:56,175] Trial 248 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.4399703659466168, 'smoothing-alpha': 0.42139651332206907}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:37:02,520] Trial 249 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.45492408302540976, 'smoothing-alpha': 0.41081664866233886}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:37:08,864] Trial 250 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.428220267596088, 'smoothing-alpha': 0.43242073863991415}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:37:15,215] Trial 251 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.4006927955510603, 'smoothing-alpha': 0.4862252289431502}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:37:21,559] Trial 252 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.447373691766551, 'smoothing-alpha': 0.4003244462013356}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:37:27,902] Trial 253 finished with value: 0.9302443862370623 and parameters: {'correction-alpha': 0.41121577760173195, 'smoothing-alpha': 0.4968934025592774}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9301 | Test acc: 0.8509
+[I 2025-11-20 00:37:34,246] Trial 254 finished with value: 0.9301426645983267 and parameters: {'correction-alpha': 0.41658735493802, 'smoothing-alpha': 0.5042474839991604}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:37:40,590] Trial 255 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.4013111685320285, 'smoothing-alpha': 0.48977825721294993}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:37:46,932] Trial 256 finished with value: 0.930320677466114 and parameters: {'correction-alpha': 0.4212778803989614, 'smoothing-alpha': 0.4156747994201536}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:37:53,276] Trial 257 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.40034630458166687, 'smoothing-alpha': 0.46722810277245275}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:37:59,677] Trial 258 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.42553307220921427, 'smoothing-alpha': 0.4079537623439476}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:38:06,201] Trial 259 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.40029026375618726, 'smoothing-alpha': 0.49038742429055615}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:38:12,554] Trial 260 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.4107622086734744, 'smoothing-alpha': 0.47477951431054677}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9301 | Test acc: 0.8509
+[I 2025-11-20 00:38:18,900] Trial 261 finished with value: 0.9301426645983267 and parameters: {'correction-alpha': 0.40037603886357265, 'smoothing-alpha': 0.5137505804659943}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:38:25,246] Trial 262 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.4343755342702769, 'smoothing-alpha': 0.4344489682094126}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:38:31,589] Trial 263 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.4169675829454584, 'smoothing-alpha': 0.45942261514836114}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9270 | Test acc: 0.8505
+[I 2025-11-20 00:38:37,932] Trial 264 finished with value: 0.9269638633878392 and parameters: {'correction-alpha': 0.4007810226872493, 'smoothing-alpha': 0.748593017703277}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:38:44,277] Trial 265 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.4217794266002265, 'smoothing-alpha': 0.44985585186647065}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:38:50,621] Trial 266 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.40972364512457304, 'smoothing-alpha': 0.4953373593114922}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:38:56,969] Trial 267 finished with value: 0.9302189558273783 and parameters: {'correction-alpha': 0.4394436328286858, 'smoothing-alpha': 0.4841809341237339}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8508
+[I 2025-11-20 00:39:03,319] Trial 268 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.448333404048152, 'smoothing-alpha': 0.42925288336112016}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:39:09,665] Trial 269 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.410896358601943, 'smoothing-alpha': 0.4667544357695331}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:39:16,022] Trial 270 finished with value: 0.9304223991048496 and parameters: {'correction-alpha': 0.40125482337768514, 'smoothing-alpha': 0.4796289075462391}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:39:22,371] Trial 271 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.4318748366786641, 'smoothing-alpha': 0.45648683494211617}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9275 | Test acc: 0.8496
+[I 2025-11-20 00:39:28,718] Trial 272 finished with value: 0.9274979019912011 and parameters: {'correction-alpha': 0.6804432033774206, 'smoothing-alpha': 0.4007120960592626}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:39:35,075] Trial 273 finished with value: 0.9301935254176945 and parameters: {'correction-alpha': 0.4008946268909199, 'smoothing-alpha': 0.5084276996715152}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:39:41,424] Trial 274 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.4275582843059077, 'smoothing-alpha': 0.42231791495903964}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:39:47,770] Trial 275 finished with value: 0.9301935254176945 and parameters: {'correction-alpha': 0.46341796900964133, 'smoothing-alpha': 0.43957482068762926}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:39:54,127] Trial 276 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.4427695672566751, 'smoothing-alpha': 0.4238420280807843}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:40:00,482] Trial 277 finished with value: 0.9302698166467461 and parameters: {'correction-alpha': 0.4191647779942631, 'smoothing-alpha': 0.477039722038042}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:40:06,830] Trial 278 finished with value: 0.9302443862370623 and parameters: {'correction-alpha': 0.4136901623145002, 'smoothing-alpha': 0.49551607821126764}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:40:13,177] Trial 279 finished with value: 0.9304478295145335 and parameters: {'correction-alpha': 0.4011204912085856, 'smoothing-alpha': 0.46435412592742814}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:40:19,524] Trial 280 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.42959033162841054, 'smoothing-alpha': 0.44260094904518393}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:40:25,870] Trial 281 finished with value: 0.9301680950080106 and parameters: {'correction-alpha': 0.41226116077372954, 'smoothing-alpha': 0.43985131742620814}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:40:32,218] Trial 282 finished with value: 0.9303461078757979 and parameters: {'correction-alpha': 0.4226011784745412, 'smoothing-alpha': 0.4132513980232467}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:40:38,563] Trial 283 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.40035962266405517, 'smoothing-alpha': 0.48735255056443455}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:40:44,918] Trial 284 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.4109537118975915, 'smoothing-alpha': 0.45854242413577456}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:40:51,266] Trial 285 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.44371063517556064, 'smoothing-alpha': 0.46663183449704765}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:40:57,624] Trial 286 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.4009318924274794, 'smoothing-alpha': 0.45164229742479284}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:41:03,972] Trial 287 finished with value: 0.9303715382854818 and parameters: {'correction-alpha': 0.4135822448096128, 'smoothing-alpha': 0.4785695780126963}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:41:10,321] Trial 288 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.400666126825194, 'smoothing-alpha': 0.47143207884198174}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:41:16,681] Trial 289 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.42747836936640665, 'smoothing-alpha': 0.46347698835717077}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8509
+[I 2025-11-20 00:41:23,064] Trial 290 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.40002695585461917, 'smoothing-alpha': 0.4752962195086432}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9299 | Test acc: 0.8509
+[I 2025-11-20 00:41:29,456] Trial 291 finished with value: 0.9298629300918038 and parameters: {'correction-alpha': 0.42129016806479214, 'smoothing-alpha': 0.5527480899765687}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:41:35,812] Trial 292 finished with value: 0.9302443862370623 and parameters: {'correction-alpha': 0.4598504830696408, 'smoothing-alpha': 0.42603034412513935}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:41:42,179] Trial 293 finished with value: 0.9304223991048496 and parameters: {'correction-alpha': 0.4372102857501667, 'smoothing-alpha': 0.40800052102217216}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:41:48,537] Trial 294 finished with value: 0.9304478295145335 and parameters: {'correction-alpha': 0.43513283348509146, 'smoothing-alpha': 0.40490770015523414}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8508
+[I 2025-11-20 00:41:54,897] Trial 295 finished with value: 0.930320677466114 and parameters: {'correction-alpha': 0.4474334888435393, 'smoothing-alpha': 0.40840388928745724}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8509
+[I 2025-11-20 00:42:01,243] Trial 296 finished with value: 0.9301935254176945 and parameters: {'correction-alpha': 0.4359846875307192, 'smoothing-alpha': 0.4559632547939478}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9302 | Test acc: 0.8508
+[I 2025-11-20 00:42:07,621] Trial 297 finished with value: 0.9301680950080106 and parameters: {'correction-alpha': 0.46339127365711735, 'smoothing-alpha': 0.40173008215863704}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9304 | Test acc: 0.8508
+[I 2025-11-20 00:42:13,979] Trial 298 finished with value: 0.9303969686951656 and parameters: {'correction-alpha': 0.43751541877652167, 'smoothing-alpha': 0.40365754516780333}. Best is trial 111 with value: 0.9304732599242174.
+Valid acc: 0.9303 | Test acc: 0.8509
+[I 2025-11-20 00:42:20,327] Trial 299 finished with value: 0.9302952470564301 and parameters: {'correction-alpha': 0.4228124988025849, 'smoothing-alpha': 0.44402681355654067}. Best is trial 111 with value: 0.9304732599242174.
+Number of finished trials:  300
+Best trial:
+  Best Valid acc: 0.9305 | Best Test acc: 0.8509
+  Params:
+    correction-alpha: 0.43189768915405835
+    smoothing-alpha: 0.41359418718931973
